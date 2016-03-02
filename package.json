@@ -1,0 +1,46 @@
+{
+  "name": "meetupbot",
+  "version": "0.0.0",
+  "description": "Slack bot to read & echo meetup API",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Studnicky/meetupbot.git"
+  },
+  "keywords": [
+    "mongo",
+    "express",
+    "angular2",
+    "node",
+    "botkit"
+  ],
+  "author": "a.j.studnicky@gmail.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Studnicky/meetupbot/issues"
+  },
+  "homepage": "https://github.com/Studnicky/meetupbot#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "botkit": "0.0.7",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.5",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.0",
+    "passport-github-token": "^2.1.0",
+    "passport-google-oauth2": "^0.1.6",
+    "passport-meetup": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "request": "^2.69.0",
+    "socketio": "^1.0.0",
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.14"
+  }
+}
